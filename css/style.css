@@ -1,0 +1,53 @@
+/* Setter bakgrunnsfarge, bårder og marger */
+body{
+	background-color: #F8F8F8;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	
+	border-width: 50px;
+	border-style: solid;
+	border-color: #7389A6;
+}
+
+/* Setter stil på tekst alle overskrifter */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #424242;
+}
+
+/* Setter stil på paragrafer */
+p{
+	font-family: Georgia, sans-serif;
+	color: #414141;
+}
+
+/* Setter stil på liste-elementer */
+li{
+	font-family: Georgia, sans-serif; 
+	color: #414141;
+	line-height: 150%;
+}
+
+/* Setter stil på alle <footer> seksjoner */
+footer{
+	font-family: Georgia, sans-serif;
+	font-weight: bold;
+	color: #7389A6;
+}
+
+/* Setter bilde bård og høyde/lengde restriksjoner */
+img{
+	max-width: 150px;
+	max-height: 84px;
+	
+	border-style: solid;
+	border-color: #455287;	
+}
